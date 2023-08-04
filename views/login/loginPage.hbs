@@ -1,0 +1,48 @@
+<main>
+  <h1>Cat Tower</h1>
+  <form id="login" action="/login" method="POST">
+    <div class="mb-3">
+      <input
+        type="text"
+        id="name"
+        name="name"
+        class="form-control"
+        placeholder="Name"
+      />
+    </div>
+    <div class="mb-3">
+      <input
+        type="password"
+        id="password"
+        name="password"
+        class="form-control"
+        placeholder="Password"
+      />
+    </div>
+    <div class="button"><button type="submit" form="login">Login</button>
+      <button type="submit" form="guest">遊客登入</button></div>
+  </form>
+  <form id="guest" action="/login" method="POST">
+    <input
+      style="display:none;"
+      type="text"
+      id="name"
+      name="name"
+      class="form-control"
+      value="guest"
+    />
+    <input
+      style="display:none;"
+      type="password"
+      id="password"
+      name="password"
+      class="form-control"
+      value="000000"
+    />
+  </form>
+
+  <p class="lead mt-4">
+    No Account?
+    <a href="/users/register">Register</a>
+  </p>
+</main>

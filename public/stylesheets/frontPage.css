@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: hsl(227, 10%, 10%);
+  margin: 0;
+  padding: 0;
+  font-family: cursive, fantasy;
+}
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 6vw;
+}
+.login {
+  color: fff;
+  opacity: 0.5;
+  transition: opacity 0.5s ease;
+  font-size: 4vw;
+  width: 24vw;
+  height: 10vh;
+  line-height: 10vh;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  text-decoration: none;
+  border: solid 2px white;
+  position: relative;
+}
+.login::before,
+.login::after {
+  transition: width 0.5s;
+  content: "";
+  display: block;
+  width: 0vw;
+  height: 4.5vh;
+  border-bottom: 2px solid white;
+  right: 24vw;
+  position: absolute;
+}
+.login::after {
+  left: 24vw;
+}
+.login:hover {
+  opacity: 1;
+  border-color: lightblue;
+}
+.login:hover::before,
+.login:hover::after {
+  width: 40vw;
+}
+div {
+  text-align: center;
+}
+#title {
+  margin-top: 20vh;
+}
+#login {
+  margin-top: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mid {
+  width: 38vw;
+  height: 10vh;
+}
+.line {
+  width: 100%;
+  height: 5vh;
+  border-bottom: 2px solid white;
+}

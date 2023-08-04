@@ -1,0 +1,14 @@
+const express = require("express");
+const router = express.Router();
+const main = require("./modules/main");
+const frontPage = require("./modules/frontPage");
+const login = require("./modules/login");
+const market = require("./modules/market");
+const skill = require("./modules/skill");
+const { authenticator } = require("../middleware/auth");
+router.use("/main", authenticator, main);
+router.use("/market", authenticator, market);
+router.use("/skill", authenticator, skill);
+router.use("/login", login);
+router.use("/", frontPage);
+module.exports = router;

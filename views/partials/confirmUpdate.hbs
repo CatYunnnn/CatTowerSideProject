@@ -1,0 +1,19 @@
+{{#if buyPage}}
+  <div class="confirm">
+    <div>你真的要升級嗎</div>
+    <a href="/skill/updateSkills/yes">yes</a>
+    <a href="/skill/updateSkills/no">no</a>
+  </div>
+{{/if}}
+{{#if noMoney}}
+  <div class="noMoney">
+    <h2>你沒有足夠的金幣</h2>
+    <a href="/skill">確認</a>
+  </div>
+{{/if}}
+{{#if highest}}
+  <div class="noMoney">
+    <h2>已經升到最滿了!</h2>
+    <a href="/skill">確認</a>
+  </div>
+{{/if}}

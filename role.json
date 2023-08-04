@@ -1,0 +1,184 @@
+{
+  "roles": [
+    {
+      "id": 1,
+      "name": "小橘",
+      "description": "路邊常見的橘貓，喜歡貓罐頭和咬玩具",
+      "HpTimes": "1",
+      "atk": "1",
+      "def": "1",
+      "spc": "0",
+      "rarity": "N"
+    },
+    {
+      "id": 2,
+      "name": "小藍",
+      "description": "",
+      "HpTimes": "1",
+      "atk": "1.2",
+      "def": "0.8",
+      "spc": "1",
+      "rarity": "N"
+    },
+    {
+      "id": 3,
+      "name": "小紅",
+      "description": "",
+      "HpTimes": "1.5",
+      "atk": "1.2",
+      "def": "0.8",
+      "spc": "3",
+      "rarity": "N"
+    },
+    {
+      "id": 4,
+      "name": "小綠",
+      "description": "",
+      "HpTimes": "1.5",
+      "atk": "1.2",
+      "def": "0.8",
+      "spc": "3",
+      "rarity": "N"
+    },
+    {
+      "id": 5,
+      "name": "玳瑁貓",
+      "description": "",
+      "HpTimes": "1.5",
+      "atk": "1.2",
+      "def": "0.8",
+      "spc": "3",
+      "rarity": "普通"
+    },
+    {
+      "id": 6,
+      "name": "玳瑁貓",
+      "description": "",
+      "HpTimes": "1.5",
+      "atk": "1.2",
+      "def": "0.8",
+      "spc": "3",
+      "rarity": "普通"
+    },
+    {
+      "id": 7,
+      "name": "玳瑁貓",
+      "description": "",
+      "HpTimes": "1.5",
+      "atk": "1.2",
+      "def": "0.8",
+      "spc": "3",
+      "rarity": "普通"
+    },
+    {
+      "id": 8,
+      "name": "玳瑁貓",
+      "description": "",
+      "HpTimes": "1.5",
+      "atk": "1.2",
+      "def": "0.8",
+      "spc": "3",
+      "rarity": "普通"
+    },
+    {
+      "id": 9,
+      "name": "玳瑁貓",
+      "description": "",
+      "HpTimes": "1.5",
+      "atk": "1.2",
+      "def": "0.8",
+      "spc": "3",
+      "rarity": "普通"
+    },
+    {
+      "id": 10,
+      "name": "玳瑁貓",
+      "description": "",
+      "HpTimes": "1.5",
+      "atk": "1.2",
+      "def": "0.8",
+      "spc": "3",
+      "rarity": "普通"
+    },
+    {
+      "id": 11,
+      "name": "玳瑁貓",
+      "description": "",
+      "HpTimes": "1.5",
+      "atk": "1.2",
+      "def": "0.8",
+      "spc": "3",
+      "rarity": "普通"
+    },
+    {
+      "id": 12,
+      "name": "玳瑁貓",
+      "description": "",
+      "HpTimes": "1.5",
+      "atk": "1.2",
+      "def": "0.8",
+      "spc": "3",
+      "rarity": "普通"
+    },
+    {
+      "id": 13,
+      "name": "玳瑁貓",
+      "description": "",
+      "HpTimes": "1.5",
+      "atk": "1.2",
+      "def": "0.8",
+      "spc": "3",
+      "rarity": "普通"
+    },
+    {
+      "id": 14,
+      "name": "玳瑁貓",
+      "description": "",
+      "HpTimes": "1.5",
+      "atk": "1.2",
+      "def": "0.8",
+      "spc": "3",
+      "rarity": "普通"
+    },
+    {
+      "id": 15,
+      "name": "玳瑁貓",
+      "description": "",
+      "HpTimes": "1.5",
+      "atk": "1.2",
+      "def": "0.8",
+      "spc": "3",
+      "rarity": "普通"
+    },
+    {
+      "id": 16,
+      "name": "玳瑁貓",
+      "description": "",
+      "HpTimes": "1.5",
+      "atk": "1.2",
+      "def": "0.8",
+      "spc": "3",
+      "rarity": "普通"
+    },
+    {
+      "id": 17,
+      "name": "玳瑁貓",
+      "description": "",
+      "HpTimes": "1.5",
+      "atk": "1.2",
+      "def": "0.8",
+      "spc": "3",
+      "rarity": "普通"
+    },
+    {
+      "id": 18,
+      "name": "玳瑁貓",
+      "description": "",
+      "HpTimes": "1.5",
+      "atk": "1.2",
+      "def": "0.8",
+      "spc": "3",
+      "rarity": "普通"
+    }
+  ]
+}
