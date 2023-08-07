@@ -2,6 +2,16 @@
 
 利用 Node.js 和 MongoDB Atlas 打造的養成小遊戲，透過過關得到金幣去升級或著購買新的角色。
 
+# 預覽
+
+![image](./.picture/cattowerlogin.jpg)
+
+![image](./.picture/cattowermain.jpg)
+
+![image](./.picture/cattowerstore.jpg)
+
+![image](./.picture/cattowerfighting.jpg)
+
 # 已完成
 
 1.預設的種子資料
